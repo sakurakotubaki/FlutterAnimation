@@ -40,13 +40,13 @@ class _AnimatedBuilderExampleState extends State<AnimatedBuilderExample>
             height: 200.0,
             color: Colors.green,
             child: const Center(
-              child: Text('くるくる回っちゃうもんね〜'),
+              child: Icon(Icons.access_time, size: 50.0),
             ),
           ),
           builder: (BuildContext context, Widget? child) {
             // Transform.rotateで回転させる。
             return Transform.rotate(
-              angle: _controller.value * 2.0 * math.pi,
+              angle: _controller.value * 5.0 * math.pi,
               child: child,
             );
           },
