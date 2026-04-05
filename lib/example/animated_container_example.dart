@@ -28,12 +28,12 @@ class _AnimatedContainerExampleState extends State<AnimatedContainerExample> {
         child: Center(
           // AnimatedContainerは、アニメーションの値を受け取り、ウィジェットを構築する。
           child: AnimatedContainer(
-            width: selected ? 200.0 : 100.0,
-            height: selected ? 100.0 : 200.0,
-            color: selected ? Colors.red : Colors.blue,
+            width: selected ? 300.0 : 100.0,
+            height: selected ? 100.0 : 400.0,
+            // color: selected ? Colors.red : Colors.blue,
             alignment:
                 selected ? Alignment.center : AlignmentDirectional.topCenter,
-            duration: const Duration(seconds: 2),
+            duration: const Duration(seconds: 1),
             curve: Curves.fastOutSlowIn,// fastOutSlowInは、アニメーションの開始と終了が遅く、中間が速い。
             child: const FlutterLogo(size: 75),
           ),

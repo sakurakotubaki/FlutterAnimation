@@ -4,11 +4,11 @@ class AnimatedCrossFadeExample extends StatefulWidget {
   const AnimatedCrossFadeExample({Key? key}) : super(key: key);
 
   @override
-  _AnimatedCrossFadeExampleState createState() =>
-      _AnimatedCrossFadeExampleState();
+  State<AnimatedCrossFadeExample> createState() =>
+      AnimatedCrossFadeExampleState();
 }
 
-class _AnimatedCrossFadeExampleState extends State<AnimatedCrossFadeExample> {
+class AnimatedCrossFadeExampleState extends State<AnimatedCrossFadeExample> {
   // 初期値がtrueなので、最初はfirstChildが表示される
   bool _first = true;
 
