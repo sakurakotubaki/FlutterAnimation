@@ -49,6 +49,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.6"
+  equatable:
+    dependency: transitive
+    description:
+      name: equatable
+      sha256: "3e0141505477fd8ad55d6eb4e7776d3fe8430be8e497ccb1521370c3f21a3e2b"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.8"
   fake_async:
     dependency: transitive
     description:
@@ -75,6 +83,27 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_web_plugins:
+    dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.0"
+  go_router:
+    dependency: "direct main"
+    description:
+      name: go_router
+      sha256: "48fb2f42ad057476fa4b733cb95e9f9ea7b0b010bb349ea491dca7dbdb18ffc4"
+      url: "https://pub.dev"
+    source: hosted
+    version: "17.2.0"
+  heroine:
+    dependency: "direct main"
+    description:
+      name: heroine
+      sha256: "77ffabb6ebc211198b8442eff692b89e8eeca89f5578ad19ddcb9a155d832425"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.7.2"
   leak_tracker:
     dependency: transitive
     description:
@@ -107,6 +136,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.1"
+  logging:
+    dependency: transitive
+    description:
+      name: logging
+      sha256: c8245ada5f1717ed44271ed1c26b8ce85ca3228fd2ffdb75468ab01979309d61
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.3.0"
   matcher:
     dependency: transitive
     description:
@@ -131,6 +168,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.17.0"
+  motor:
+    dependency: transitive
+    description:
+      name: motor
+      sha256: cbd49f21b00e568c2b1a55f134ed803614a107782f4fea7769693bca32940c58
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.0"
   path:
     dependency: transitive
     description:
@@ -210,4 +255,4 @@ packages:
     version: "15.0.2"
 sdks:
   dart: "3.11.3"
-  flutter: ">=3.18.0-18.0.pre.54"
+  flutter: ">=3.35.0"
