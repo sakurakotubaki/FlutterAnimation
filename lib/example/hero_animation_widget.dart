@@ -61,7 +61,7 @@ class DrinkHero extends StatelessWidget {
             onTap: onTap,
             child: Image.asset(
               drink.imageUrl,
-              fit: BoxFit.contain,
+              fit: BoxFit.contain,// BoxFit.containは、画像を元のサイズに合わせて表示する。
               errorBuilder: (context, error, stackTrace) {
                 return SizedBox(
                   height: width,
