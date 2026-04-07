@@ -1,4 +1,4 @@
-import 'package:animation_tutorial/example/fog_animation_page.dart';
+import 'package:animation_tutorial/example/coffee_hero_horizontal_demo.dart';
 import 'package:flutter/material.dart';
 import 'package:heroine/heroine.dart';
 
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const FogAnimationPage(),
+      home: const CoffeeHeroHorizontalDemo(),
     );
   }
 }
